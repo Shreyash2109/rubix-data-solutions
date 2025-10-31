@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rubix Data Solution | Reliable BPO & Contact Center Services</title>
+  <meta name="description" content="Rubix Data Solution — Driving Growth and Reliability. Professional contact center and BPO services.">
+  <meta name="keywords" content="BPO, Contact Center, Technical Support, Data Services, Customer Support, Rubix Data Solution">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <style>
+    :root {
+      --primary: #0b5ed7; /* blue */
+      --accent-orange: #ff6600;
+      --accent-green: #2b9b2b;
+      --muted: #6b7280;
+      --bg: #f7fafc;
+      --card: #ffffff;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial; margin:0; color:#0f172a; background:var(--bg); -webkit-font-smoothing:antialiased; scroll-behavior:smooth}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{background:linear-gradient(180deg, rgba(255,255,255,0.85), rgba(255,255,255,0.6)); border-bottom:1px solid #e6edf8; position:relative; z-index:2}
+    .header-bg{position:absolute; inset:0; background-image:url('assets/background.jpg'); background-size:cover; background-position:center; opacity:0.18; filter:grayscale(10%); z-index:1}
+    .nav{position:relative;display:flex;align-items:center;justify-content:space-between;padding:20px 0; z-index:3}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo-img{height:48px}
+    nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0}
+    a{color:inherit;text-decoration:none}
+    .cta{padding:10px 16px;border-radius:8px;background:var(--primary);color:white;font-weight:600;box-shadow:0 6px 14px rgba(11,94,215,0.12)}
+    main{padding:40px 0;position:relative;z-index:2}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:center}
+    .hero h1{font-size:2rem;margin:0 0 12px}
+    .tagline{color:var(--primary);font-weight:700;margin-bottom:8px}
+    .subtext{color:var(--muted);margin-bottom:18px}
+    .lead{color:var(--muted);line-height:1.6}
+    .card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+    .service{padding:18px;border-radius:10px;border:1px solid #eef4fb}
+    h2.section{font-size:1.25rem;margin:0 0 12px}
+    .values{display:flex;gap:12px;flex-wrap:wrap}
+    .value{background:#fff;padding:10px 12px;border-radius:999px;border:1px solid #edf2f8;font-weight:600}
+    footer{padding:28px 0;color:var(--muted);border-top:1px solid #eef4fb;margin-top:48px}
+    /* contact form */
+    input, textarea {width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefb;font-size:14px}
+    button.primary {background:var(--primary);border:none;color:white;padding:10px 14px;border-radius:8px;font-weight:600;cursor:pointer}
+    button.secondary {background:var(--accent-green);border:none;color:white;padding:10px 14px;border-radius:8px;font-weight:600;cursor:pointer}
+    .contact-success{display:none;padding:12px;border-radius:8px;background:#e6fff0;color:#0b6630;border:1px solid #c6f1d6;margin-top:12px}
+    .back-to-top{position:fixed;right:18px;bottom:18px;background:var(--primary);color:white;padding:10px;border-radius:999px;border:none;box-shadow:0 6px 18px rgba(11,94,215,0.18);cursor:pointer;display:none;z-index:999}
+    /* responsive */
+    @media (max-width:900px){.hero{grid-template-columns:1fr} .services{grid-template-columns:1fr} nav ul{display:none} .container{padding:18px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-bg" aria-hidden="true"></div>
+    <div class="container nav">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Rubix Data Solution logo" class="logo-img">
+        <div>
+          <div style="font-weight:700">Rubix Data Solution</div>
+          <div style="font-size:12px;color:var(--muted)">Business Process Outsourcing | Contact Center</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#contact">Get in touch</a>
+    </div>
+  </header>
+
+  <main class="container" id="home">
+    <section class="hero" aria-label="Hero section">
+      <div>
+        <div class="tagline">Driving Growth and Reliability</div>
+        <h1>Rubix Data Solution</h1>
+        <div class="subtext">Your trusted partner in BPO and Customer Support</div>
+        <p class="lead">Rubix Data Solution provides professional contact center and BPO services designed to help businesses scale operations, improve customer satisfaction, and reduce costs. We combine people-first processes with technology-driven workflows to deliver measurable outcomes.</p>
+
+        <div style="margin-top:20px">
+          <div class="card" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+            <div style="flex:1;min-width:200px">
+              <div style="font-weight:700">Core Strengths</div>
+              <div style="color:var(--muted);font-size:14px">Reliability • Accountability • Teamwork • Excellence • Growth</div>
+            </div>
+            <div style="text-align:right;min-width:180px">
+              <div style="font-weight:700">Contact</div>
+              <div style="font-size:13px;color:var(--muted)">rubix.datasolutions@gmail.com</div>
+              <div style="font-size:13px;color:var(--muted)">+91 94231 90070 / 86697 74554</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin:0 0 8px">Request a callback</h3>
+          <p style="margin:0 0 12px;color:var(--muted);font-size:14px">Share a few details and our team will get back to you.</p>
+          <form id="callbackForm">
+            <div style="margin-bottom:8px"><input name="name" id="cb_name" placeholder="Your name" required></div>
+            <div style="margin-bottom:8px"><input name="email" id="cb_email" type="email" placeholder="Email" required></div>
+            <div style="margin-bottom:10px"><input name="phone" id="cb_phone" placeholder="Phone"></div>
+            <div style="text-align:right"><button type="submit" class="primary">Send</button></div>
+            <div id="cb_success" class="contact-success">Thank you for contacting Rubix Data Solution! We'll get back to you shortly.</div>
+          </form>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" style="margin-top:36px">
+      <h2 class="section">About Us</h2>
+      <div class="card" style="padding:24px">
+        <p style="margin-top:0;color:var(--muted);line-height:1.6">Rubix Data Solution is a professional BPO and contact center service provider committed to helping businesses grow by delivering reliable, efficient, and accountable outsourcing services. With a focus on measurable performance and customer satisfaction, our people and processes are aligned to support both short-term needs and long-term partnerships.</p>
+
+        <div style="margin-top:16px">
+          <strong>Our Mission</strong>
+          <p style="color:var(--muted);margin:6px 0 0;line-height:1.5">To empower clients with scalable outsourcing solutions that improve operational efficiency and drive business growth.</p>
+        </div>
+
+        <div style="margin-top:12px">
+          <strong>Our Vision</strong>
+          <p style="color:var(--muted);margin:6px 0 0;line-height:1.5">To be the trusted partner of choice for businesses seeking excellence in customer experience and back-office operations.</p>
+        </div>
+
+        <div style="margin-top:14px">
+          <strong>Company Values</strong>
+          <div class="values" style="margin-top:8px">
+            <div class="value">Growth</div>
+            <div class="value">Reliability</div>
+            <div class="value">Excellence</div>
+            <div class="value">Accountability</div>
+            <div class="value">Teamwork</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" style="margin-top:36px">
+      <h2 class="section">Services</h2>
+      <div class="services">
+        <div class="service card">
+          <h3 style="margin-top:0">Contact Center Services</h3>
+          <p style="color:var(--muted);line-height:1.5">Inbound & outbound voice support, customer care, order management, escalation handling and multilingual support.</p>
+        </div>
+        <div class="service card">
+          <h3 style="margin-top:0">Technical Support</h3>
+          <p style="color:var(--muted);line-height:1.5">Tier 1 & Tier 2 technical support, remote troubleshooting, product support and knowledge-base driven resolutions.</p>
+        </div>
+        <div class="service card">
+          <h3 style="margin-top:0">Back-office & Data Services</h3>
+          <p style="color:var(--muted);line-height:1.5">Data entry, processing, reconciliation, form filling, billing support and document management.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:36px">
+      <h2 class="section">Contact</h2>
+      <div class="card" style="padding:18px;display:flex;gap:20px;flex-wrap:wrap;align-items:center">
+        <div style="flex:1;min-width:240px">
+          <strong>Get in touch</strong>
+          <p style="color:var(--muted);margin:6px 0 0">Email: <a href="mailto:rubix.datasolutions@gmail.com">rubix.datasolutions@gmail.com</a><br>Phone: +91 94231 90070 / 86697 74554</p>
+        </div>
+        <div style="min-width:260px">
+          <form id="contactForm">
+            <div style="margin-bottom:8px"><input name="name" id="c_name" placeholder="Your name" required></div>
+            <div style="margin-bottom:8px"><input name="email" id="c_email" type="email" placeholder="Email" required></div>
+            <div style="margin-bottom:8px"><textarea name="message" id="c_message" placeholder="Message" rows="4" required></textarea></div>
+            <div style="text-align:right"><button type="submit" class="primary">Send Message</button></div>
+            <div id="c_success" class="contact-success">Thank you for contacting Rubix Data Solution! We'll get back to you shortly.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>© 2025 Rubix Data Solution. All rights reserved.</div>
+        <div style="color:var(--muted);font-size:14px">Made with focus on Reliability, Accountability, Teamwork.</div>
+      </div>
+    </footer>
+  </main>
+
+  <button id="topBtn" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script>
+    // Back to top visibility
+    const topBtn = document.getElementById('topBtn');
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 300) topBtn.style.display = 'block'; else topBtn.style.display = 'none';
+    });
+    topBtn.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+
+    // Helper to post to formsubmit.co and show thank-you
+    async function postToFormSubmit(url, data) {
+      try {
+        const formData = new FormData();
+        for (const k in data) formData.append(k, data[k]);
+        formData.append('_subject', 'New contact from website');
+        formData.append('_captcha', 'false');
+        const res = await fetch(url, {
+          method: 'POST',
+          body: formData,
+          mode: 'cors'
+        });
+        return res;
+      } catch (e) {
+        console.error('Form submit failed', e);
+        return null;
+      }
+    }
+
+    // Callback form submission
+    document.getElementById('callbackForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const data = {
+        name: document.getElementById('cb_name').value,
+        email: document.getElementById('cb_email').value,
+        phone: document.getElementById('cb_phone').value,
+        message: 'Callback request from website'
+      };
+      const res = await postToFormSubmit('https://formsubmit.co/rubix.datasolutions@gmail.com', data);
+      document.getElementById('cb_success').style.display = 'block';
+      this.reset();
+    });
+
+    // Contact form submission
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const data = {
+        name: document.getElementById('c_name').value,
+        email: document.getElementById('c_email').value,
+        message: document.getElementById('c_message').value
+      };
+      const res = await postToFormSubmit('https://formsubmit.co/rubix.datasolutions@gmail.com', data);
+      document.getElementById('c_success').style.display = 'block';
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
